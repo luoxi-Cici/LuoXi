@@ -1,0 +1,1159 @@
+.pg {
+    font-size: 12px;
+    color: #333333;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+#nav a:link {
+    color: #FFF;
+    text-decoration: none;
+}
+#nav a:visited {
+    color: #FFF;
+    text-decoration: none;
+}
+#nav a:hover {
+    color: #FFF;
+    text-decoration: none;
+}
+#nav a:active {
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+
+#header {
+    height: 170px;
+    width: 1201px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#header-image {
+    background: url(image/header.jpg) no-repeat;
+    _background-image: url(image/header.jpg);
+    height: 90px;
+    width: 1201px;
+    cursor: pointer;
+}
+
+
+#logo {
+    background: url(image/logo.jpg) no-repeat;
+    _background-image: url(image/logo.jpg);
+    height: 80px;
+    width: 163px;
+    cursor: pointer;
+    float: left;
+}
+
+#header-wrapper {
+    position: relative;
+    top: 23px;
+}
+
+#city-button {
+    border: 1px solid #ccc;
+    cursor: pointer;
+    float: left;
+    width: 79px;
+    height: 36px;
+    margin-right: 12px;
+    position: relative;
+    background-color: #fff;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(#fbfbfb));
+    background-image: -webkit-linear-gradient(top, #fff, #fbfbfb);
+    background-image: -moz-linear-gradient(top, #fff, #fbfbfb);
+    background-image: linear-gradient(to bottom, #fff, #fbfbfb);
+    background-repeat: repeat-x
+}
+
+#city {
+    display: inline-block;
+    *display:inline;
+    *zoom:1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 56px;
+    height: 36px;
+    line-height: 36px;
+    margin-left: 4px;
+    text-align: center
+}
+
+#search-input {
+    border: 2px solid #40b019;
+    border-right: 0;
+    float: left;
+    width: 450px;
+    height: 24px;
+    font-size: 1em;
+    *line-height:26px;
+    line-height: 26px\0/;
+    padding: 5px 10px
+}
+
+#search-button {
+    background-color: #3fb118;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#3fb118), to(#40af1a));
+    background-image: -webkit-linear-gradient(top, #3fb118, #40af1a);
+    background-image: -moz-linear-gradient(top, #3fb118, #40af1a);
+    background-image: linear-gradient(to bottom, #3fb118, #40af1a);
+    background-repeat: repeat-x;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 14px;
+    text-align: center;
+    float: left;
+    width: 86px;
+    height: 38px;
+    line-height: 38px;
+}
+
+
+#login-button {
+    background-color: #3fb118;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#3fb118), to(#40af1a));
+    background-image: -webkit-linear-gradient(top, #3fb118, #40af1a);
+    background-image: -moz-linear-gradient(top, #3fb118, #40af1a);
+    background-image: linear-gradient(to bottom, #3fb118, #40af1a);
+    background-repeat: repeat-x;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 14px;
+    text-align: center;
+    float: left;
+    width: 110px;
+    height: 38px;
+    line-height: 38px;
+    margin-left: 230px;
+}
+
+#nav {
+    width: 103%;
+    height: 40px;
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+    z-index: 0;
+    background-color: #3fb118;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#3fb118), to(#40af1a));
+    background-image: -webkit-linear-gradient(top, #3fb118, #40af1a);
+    background-image: -moz-linear-gradient(top, #3fb118, #40af1a);
+    background-image: linear-gradient(to bottom, #3fb118, #40af1a);
+    background-repeat: repeat-x
+}
+
+.meun-item {
+    float: left;
+    margin-left: 115px;
+    cursor: pointer;
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    position: relative;
+    top: 13px;
+}
+
+.meun-name {
+    position: relative;
+    right: 10px;
+}
+
+.meun-option {
+    float: left;
+    margin-left: 60px;
+    cursor: pointer;
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    position: relative;
+    top: 13px;
+}
+
+
+
+.slider {
+    width: 1360px; 
+    height: 365px; 
+    overflow: hidden;
+    margin: 0 0; 
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+} 
+
+.num_box { 
+    position:absolute; 
+    bottom:25px; 
+    right:400px;
+} 
+
+.num_box a { 
+    width:10px; 
+    height:10px; 
+    background:#fff; 
+    border-radius:5px; 
+    display:inline-block;
+} 
+
+.left {
+    position: absolute;
+    left: 70px;
+    top: 220px;
+    background-color: #fff;
+    width: 224px;
+    color: #333333;
+}
+
+#left-line {
+    width: 50%;
+}
+
+.food {
+    margin-left: 10px;
+    line-height: 30px;
+}
+
+.left a:link {
+    color: #333333;
+    text-decoration: none;
+}
+.left a:visited {
+    color: #333333;
+    text-decoration: none;
+}
+.left a:hover {
+    color: #40B019;
+    text-decoration: underline;
+
+}
+.left a:active {
+    color: #333333;
+    text-decoration: none;
+}
+
+.hot {
+    margin-left: 22px;
+}
+
+#larrow {
+    position: absolute;
+    top: 18px;
+    left: 185px;
+}
+
+#larrow2 {
+    position: absolute;
+    top: 143px;
+    left: 185px;
+}
+
+#larrow3 {
+    position: absolute;
+    top: 268px;
+    left: 185px;
+}
+
+#larrow4 {
+    position: absolute;
+    top: 393px;
+    left: 185px;
+}
+
+.left-box{
+    position: absolute;
+    left: 212px;
+    top: 0px;
+    width: 400px;
+    height: 521px;
+    background: #fff;
+    display: none;
+}
+
+.left-box .item {
+    border-right: 1px solid #333333;
+    margin-right: -1px;
+    padding-right: 5px;
+
+}
+
+.left-box .class-item {
+    margin-top: 30px;
+}
+
+.timage {
+    position: absolute;
+    left: 294px;
+    top: 570px;
+}
+
+#image1 {
+    float: left;
+}
+
+#image2 {
+    float: left;
+}
+
+#image3 {
+    float: left;
+}
+
+.right {
+    float: left;
+    color: #666666;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.cntword {
+    position: absolute;
+    top :750px;
+    left : 80px;
+    color :#666666;
+}
+
+.fimage {
+    position: absolute;
+    top: 800px;
+    left: 80px;
+    height: 420px;
+    width: 450px;
+    background: url(image/bg.jpg);
+}
+
+#red {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 122px;
+    width: 117px;
+    background: url(image/redfont.jpg);
+    cursor: pointer;
+}
+
+#green {
+    position: absolute;
+    top: 10px;
+    left: 140px;
+    height: 122px;
+    width: 170px;
+    background: url(image/greenfont.jpg);
+    cursor: pointer;
+}
+
+#write {
+    position: absolute;
+    top: 10px;
+    left: 323px;
+    height: 122px;
+    width: 115px;
+    background: url(image/writefont.jpg);
+    cursor: pointer;
+}
+
+#write2 {
+    position: absolute;
+    top: 145px;
+    left: 10px;
+    height: 122px;
+    width: 173px;
+    background: url(image/writefont2.jpg);
+    cursor: pointer;
+}
+
+#blue {
+    position: absolute;
+    top: 145px;
+    left: 196px;
+    height: 122px;
+    width: 117px;
+    background: url(image/bluefont.jpg);
+    cursor: pointer;
+}
+
+#red2 {
+    position: absolute;
+    top: 145px;
+    left: 326px;
+    height: 122px;
+    width: 113px;
+    background: url(image/redfont2.jpg);
+    cursor: pointer;
+}
+
+#green2 {
+    position: absolute;
+    top: 280px;
+    left: 10px;
+    height: 55px;
+    width: 115px;
+    background: url(image/greenfont2.jpg);
+    cursor: pointer;
+}
+
+#write3 {
+    position: absolute;
+    top: 347px;
+    left: 10px;
+    height: 55px;
+    width: 115px;
+    background: url(image/writefont3.jpg);
+    cursor: pointer;
+}
+
+#pink {
+    position: absolute;
+    top: 280px;
+    left: 138px;
+    height: 122px;
+    width: 104px;
+    background: url(image/pinkfont.jpg);
+    cursor: pointer;
+}
+
+#yellow {
+    position: absolute;
+    top: 280px;
+    left: 255px;
+    height: 122px;
+    width: 183px;
+    background: url(image/yellowfont.jpg);
+    cursor: pointer;
+}
+
+.blurword {
+    position: absolute;
+    top :755px;
+    left : 565px;
+    color :#666666;
+}
+
+.learning {
+    position: absolute;
+    top: 1250px;
+    left: 80px;
+    background: #F8F8F8;
+    color :#666666;
+    width: 1300px;
+}
+
+#timage{
+    height: 441px;
+    width: 220px;
+    background: url(image/training.jpg) no-repeat;
+    position: relative;
+    float: left;
+}
+
+.tbook {
+    position: relative;
+    float: left;
+    margin-left: 20px;
+    bottom: 15px;
+}
+
+.bpic {
+    width: 120px;
+    margin-top: 10px;
+}
+
+.pic {
+    position: relative;
+    bottom: 5px;
+    width: 120px;
+}
+
+.pic2 {
+    position: absolute;
+    top: 150px;
+    width: 120px;
+}
+
+.bitem {
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    width: 500px;
+}
+
+.itm2 {
+    margin-top: 11px;
+}
+
+.learning a:link {
+    color: #666666;
+    text-decoration: none;
+}
+
+.learning a:visited {
+    color: #666666;
+    text-decoration: none;
+}
+
+.learning a:hover {
+    color: #40B019;
+    text-decoration: underline;
+}
+
+.learning a:active {
+    color: #666666;
+    text-decoration: none;
+}
+
+.question {
+    position: absolute;
+    top: 500px;
+}
+
+.clearning {
+    position: absolute;
+    top: 1238px;
+    left: 650px;
+    color :#666666;
+    width: 1300px;
+}
+
+.clearning a:link {
+    color: #666666;
+    text-decoration: none;
+}
+
+.clearning a:visited {
+    color: #666666;
+    text-decoration: none;
+}
+
+.clearning a:hover {
+    color: #40B019;
+    text-decoration: underline;
+}
+
+.clearning a:active {
+    color: #666666;
+    text-decoration: none;
+}
+
+.rlearning {
+    position: absolute;
+    top: 1238px;
+    left: 950px;
+    color :#666666;
+}
+.rlearning a:link {
+    color: #666666;
+    text-decoration: none;
+}
+
+.rlearning a:visited {
+    color: #666666;
+    text-decoration: none;
+}
+
+.rlearning a:hover {
+    color: #40B019;
+    text-decoration: underline;
+}
+
+.rlearning a:active {
+    color: #666666;
+    text-decoration: none;
+}
+
+.line {
+    position: absolute;
+    top: 1500px;
+    left: 310px;
+    width: 620px;
+    height: 1px;
+    background-color: #D5D5D5;
+    overflow: hidden;
+}
+
+.line2 {
+    position: absolute;
+    top: 1500px;
+    left: 935px;
+    width: 320px;
+    height: 2px;
+    background-color: #5D5D5D;
+    overflow: hidden;
+}
+
+.lesson {
+    position: absolute;
+    top: 1520px;
+    left: 310px;
+    color: #666666;
+}
+
+.lmore {
+    position: absolute;
+    top: 17px;
+    left: 395px;
+    width: 1000px;
+}
+
+.smore {
+    position: relative;
+    float: left;
+}
+
+#smore2 {
+    margin-left: 10px;
+}
+
+#smore3 {
+    margin-left: 10px;
+}
+
+#smore4 {
+    margin-left: 10px;
+}
+
+.lesson, a:link {
+    color: #666666;
+    text-decoration: none;
+}
+
+.lesson a:visited {
+    color: #666666;
+    text-decoration: none;
+}
+
+.lesson a:hover {
+    color: #40B019;
+    text-decoration: underline;
+}
+
+.lesson a:active {
+    color: #666666;
+    text-decoration: none;
+}
+
+.limage {
+    width: 1120px;
+}
+
+.fontimage {
+    width: 120px;
+}
+
+#nimage {
+    position: absolute;
+    top: 45px;
+    left: 160px;
+}
+
+#nimage2 {
+    position: absolute;
+    top: 45px;
+    left: 320px;
+}
+
+#nimage3 {
+    position: absolute;
+    top: 45px;
+    left: 450px;
+}
+
+.recommand {
+    color: #666666;
+    position: absolute;
+    top: 1521px;
+    left: 945px;
+}
+
+.rmore {
+    position: absolute;
+    top: 15px;
+    left: 250px;
+    width: 200px;
+}
+
+.recommand a:link {
+    color: #666666;
+    text-decoration: none;
+}
+
+.recommand a:visited {
+    color: #666666;
+    text-decoration: none;
+}
+
+.recommand a:hover {
+    color: #40B019;
+    text-decoration: underline;
+}
+
+.recommand a:active {
+    color: #666666;
+    text-decoration: none;
+}
+
+#rec1 {
+    position: absolute;
+    top: 60px;
+    left: 62px;
+}
+
+#reimg2 {
+    position: absolute;
+    top: 44px;
+    left: 155px;
+}
+
+#rec2 {
+    position: absolute;
+    top: 16px;
+    left: 62px;
+    width: 100px;
+}
+
+#rec3 {
+    position: absolute;
+    top: 121px;
+    left: 60px;
+    width: 100px;
+}
+
+#reimg4 {
+    position: absolute;
+    top: 107px;
+    left: 155px;
+}
+
+#rec4 {
+    position: absolute;
+    top: 16px;
+    left: 60px;
+    width: 100px;
+}
+
+.blmore {
+    position: absolute;
+    top: 772px;
+    left: 945px;
+
+}
+
+#blur {
+    color: #666666;
+
+}
+
+.newul {
+    position: absolute;
+    top: 800px;
+    left: 526px;
+    width: 425px;
+}
+
+.newul li{
+    list-style-type:none;
+}
+
+#blur a:link {
+    color: #333333;
+    text-decoration: none;
+}
+
+#blur a:visited {
+    color: #333333;
+    text-decoration: none;
+}
+
+#blur a:hover {
+    color: #40B019;
+    text-decoration: underline;
+}
+
+#blur a:active {
+    color: #333333;
+    text-decoration: none;
+}
+
+.newitem {
+    position: relative;
+    bottom: 12px;
+}
+.newitem2 {
+    margin-top: 12px;
+    position: relative;
+    bottom: 12px;
+}
+
+.date {
+    float: right;
+}
+
+.newsimage {
+    position: absolute;
+    left: 565px;
+    top: 1095px;
+}
+
+.newimage1 {
+    width: 130px;
+    position: relative;
+    float: left;
+}
+
+.newimage2 {
+    width: 130px;
+    position: relative;
+    float: left;
+    margin-left:18px;
+}
+
+.bigword {
+    position: absolute;
+    top :755px;
+    left : 1005px;
+    color :#666666;
+}
+
+.gline {
+    position: absolute;
+    top: 800px;
+    left: 1010px;
+    width: 250px;
+    height: 3px;
+    background-color: #40B019;
+    overflow: hidden;
+}
+
+.dline {
+    position: absolute;
+    top: 802px;
+    left: 1008px;
+}
+
+.lenrank li{
+    list-style-type: none
+}
+
+.lenrank{
+    position: absolute;
+    top: 802px;
+    left: 990px;
+}
+
+.top3 {
+    color: #FF7E4D;
+    font-size: 20px;
+}
+
+.ft {
+    position: relative;
+    bottom: 34px;
+    left: 35px;
+}
+
+.lessonrank a:link {
+    color: #333333;
+    text-decoration: none;
+}
+
+.lessonrank a:visited {
+    color: #333333;
+    text-decoration: none;
+}
+
+.lessonrank a:hover {
+    color: #40B019;
+    text-decoration: underline;
+}
+
+.footer a:active {
+    color: #666666;
+    text-decoration: none;
+}
+
+.footer a:link {
+    color: #666666;
+    text-decoration: none;
+}
+
+.footer a:visited {
+    color: #666666;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #40B019;
+    text-decoration: underline;
+}
+
+.footer a:active {
+    color: #666666;
+    text-decoration: none;
+}
+
+hr {
+    border :1px #cccccc dotted;
+    position: relative;
+    bottom: 30px;
+    width: 230px;
+
+}
+
+.srank {
+    position: relative;
+    bottom: 35px;
+}
+
+.mline {
+    position: relative;
+    bottom: 33px;
+}
+
+.ft2 {
+    position: relative;
+    bottom: 67px;
+    left: 35px;
+}
+
+#top03 {
+    position: relative;
+    bottom: 33px;
+}
+
+.mline1 {
+    position: relative;
+    bottom: 66px;
+}
+
+.top10 {
+    color: #333333;
+    font-size: 20px;
+}
+
+#top04 {
+    position: relative;
+    bottom: 63px;
+}
+
+.ft3 {
+    position: relative;
+    bottom: 99px;
+    left: 35px;
+}
+
+.mline2 {
+    position: relative;
+    bottom: 96px;
+}
+
+#top05 {
+    position: relative;
+    bottom: 96px;
+}
+
+.ft4 {
+    position: relative;
+    bottom: 129px;
+    left: 35px;
+}
+
+.mline3 {
+    position: relative;
+    bottom: 126px;
+}
+
+#top06 {
+    position: relative;
+    bottom: 127px;
+}
+
+.ft5 {
+    position: relative;
+    bottom: 161px;
+    left: 35px;
+}
+
+.mline4 {
+    position: relative;
+    bottom: 156px;
+}
+
+#top07 {
+    position: relative;
+    bottom: 155px;
+}
+
+.ft6 {
+    position: relative;
+    bottom: 188px;
+    left: 35px;
+}
+
+.mline5 {
+    position: relative;
+    bottom: 184px;
+}
+
+#top08 {
+    position: relative;
+    bottom: 186px;
+}
+
+.ft7 {
+    position: relative;
+    bottom: 219px;
+    left: 35px;
+}
+
+.mline6 {
+    position: relative;
+    bottom: 210px;
+}
+
+.box1 {
+    position: relative;
+    float: left;
+}
+
+.box2 {
+    position: relative;
+    float: left;
+    margin-left: 7px;
+}
+
+.cal {
+    color: #666666;
+    position: absolute;
+    left: 980px;
+    top: 220px;
+    width: 295px;
+    height: 350px;
+    background: #fff;
+}
+
+.ffont {
+    position: relative;
+    left: 10px;
+    float: left;
+}
+
+.leftbtn {
+    position: relative;
+    float: left;
+    margin-left: 100px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.rightbtn {
+    position: relative;
+    top: 10px;
+}
+
+.month {
+    background: #fff;
+    width: 54px;
+    height: 58px;
+    float: left;
+    position: relative;
+    right: 70px;
+    top: 15px;
+}
+
+.cfont {
+    font-size: 20px;
+    margin-left: 10px;
+    font-family: "黑体";
+    position: relative;
+    top: 18px;
+}
+
+
+#month5 {
+    position: relative;
+    bottom: 43px;
+    left: 220px;
+}
+
+.cmonth {
+    background: #3BC10E;
+    width: 54px;
+    height: 58px;
+    float: left;
+    position: relative;
+    right: 70px;
+    top: 15px;
+}
+
+.things a:link {
+    color: #333333;
+    text-decoration: none;
+}
+
+.things a:visited {
+    color: #333333;
+    text-decoration: none;
+}
+
+.things a:hover {
+    color: #40B019;
+    text-decoration: underline;
+}
+
+.things a:active {
+    color: #333333;
+    text-decoration: none;
+}
+
+.things li{
+    list-style-type:none;
+}
+
+.dthings {
+    position: relative;
+    right: 20px;
+    bottom: 10px;
+}
+
+.thingsitem2 {
+    margin-top: 13px;
+}
+
+.date1 {
+    position: relative;
+    float: right;
+    right: 5px;
+}
+
+.footer {
+    position: absolute;
+    top: 1690px;
+    height: 400px;
+}
+
+.footer-a {
+    position: relative;
+    left: 500px;
+    font-size: 14px;
+    color: #666666;
+}
+
+#footer1 {
+    position: relative;
+    left: 20px;
+}
+
+#footer2 {
+    position: relative;
+    left: 40px;
+}
+
+#footer3 {
+    position: relative;
+    left: 60px;
+}
+
